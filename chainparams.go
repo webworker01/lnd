@@ -33,7 +33,7 @@ type litecoinNetParams struct {
 var bitcoinMainNetParams = bitcoinNetParams{ 
 	Params: &bitcoinCfg.MainNetParams, 
 	rpcPort: "8334",
-	CoinType keychain.CoinTypeBitcoin,
+	CoinType: keychain.CoinTypeBitcoin,
 }
 
 // bitcoinTestNetParams contains parameters specific to the 3rd version of the
